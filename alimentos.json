@@ -1,0 +1,590 @@
+{
+    "frutas": {
+        "banana": {
+            "calorias_por_100g": 89,
+            "proteinas": 1.1,
+            "carboidratos": 22.8,
+            "gorduras": 0.3,
+            "fibras": 2.6,
+            "vitaminas": {
+                "vitamina_C": 8.7,
+                "vitamina_B6": 0.4,
+                "folato": 20
+            },
+            "minerais": {
+                "potassio": 358,
+                "magnesio": 27,
+                "fosforo": 22
+            },
+            "beneficios": [
+                "Rica em potássio para saúde cardiovascular",
+                "Fonte de energia rápida",
+                "Melhora humor pela vitamina B6",
+                "Ajuda na digestão pelas fibras"
+            ]
+        },
+        "maçã": {
+            "calorias_por_100g": 52,
+            "proteinas": 0.3,
+            "carboidratos": 13.8,
+            "gorduras": 0.2,
+            "fibras": 2.4,
+            "vitaminas": {
+                "vitamina_C": 4.6,
+                "vitamina_K": 2.2
+            },
+            "minerais": {
+                "potassio": 107,
+                "fosforo": 11
+            },
+            "beneficios": [
+                "Rica em antioxidantes",
+                "Baixa em calorias",
+                "Melhora saúde digestiva",
+                "Controla níveis de açúcar no sangue"
+            ]
+        },
+        "laranja": {
+            "calorias_por_100g": 47,
+            "proteinas": 0.9,
+            "carboidratos": 11.8,
+            "gorduras": 0.1,
+            "fibras": 2.4,
+            "vitaminas": {
+                "vitamina_C": 53.2,
+                "folato": 40,
+                "tiamina": 0.1
+            },
+            "minerais": {
+                "potassio": 181,
+                "calcio": 40,
+                "magnesio": 10
+            },
+            "beneficios": [
+                "Excelente fonte de vitamina C",
+                "Fortalece sistema imunológico",
+                "Rica em antioxidantes",
+                "Melhora absorção de ferro"
+            ]
+        },
+        "morango": {
+            "calorias_por_100g": 32,
+            "proteinas": 0.7,
+            "carboidratos": 7.7,
+            "gorduras": 0.3,
+            "fibras": 2.0,
+            "vitaminas": {
+                "vitamina_C": 58.8,
+                "folato": 24,
+                "vitamina_K": 2.2
+            },
+            "minerais": {
+                "potassio": 153,
+                "magnesio": 13,
+                "fosforo": 24
+            },
+            "beneficios": [
+                "Rico em antioxidantes",
+                "Baixo em calorias",
+                "Anti-inflamatório natural",
+                "Melhora saúde da pele"
+            ]
+        },
+        "abacate": {
+            "calorias_por_100g": 160,
+            "proteinas": 2.0,
+            "carboidratos": 8.5,
+            "gorduras": 14.7,
+            "fibras": 6.7,
+            "vitaminas": {
+                "vitamina_K": 21,
+                "folato": 81,
+                "vitamina_C": 10
+            },
+            "minerais": {
+                "potassio": 485,
+                "magnesio": 29,
+                "fosforo": 52
+            },
+            "beneficios": [
+                "Rico em gorduras saudáveis",
+                "Alto teor de fibras",
+                "Melhora absorção de nutrientes",
+                "Beneficia saúde cardiovascular"
+            ]
+        }
+    },
+    "vegetais": {
+        "brócolis": {
+            "calorias_por_100g": 34,
+            "proteinas": 2.8,
+            "carboidratos": 6.6,
+            "gorduras": 0.4,
+            "fibras": 2.6,
+            "vitaminas": {
+                "vitamina_C": 89.2,
+                "vitamina_K": 101.6,
+                "folato": 63
+            },
+            "minerais": {
+                "potassio": 316,
+                "ferro": 0.7,
+                "calcio": 47
+            },
+            "beneficios": [
+                "Rico em vitamina C e K",
+                "Propriedades anticancerígenas",
+                "Fortalece ossos",
+                "Melhora saúde ocular"
+            ]
+        },
+        "espinafre": {
+            "calorias_por_100g": 23,
+            "proteinas": 2.9,
+            "carboidratos": 3.6,
+            "gorduras": 0.4,
+            "fibras": 2.2,
+            "vitaminas": {
+                "vitamina_K": 482.9,
+                "vitamina_A": 469,
+                "folato": 194,
+                "vitamina_C": 28.1
+            },
+            "minerais": {
+                "ferro": 2.7,
+                "potassio": 558,
+                "magnesio": 79
+            },
+            "beneficios": [
+                "Excelente fonte de ferro",
+                "Rico em vitamina K",
+                "Antioxidante poderoso",
+                "Melhora saúde dos olhos"
+            ]
+        },
+        "cenoura": {
+            "calorias_por_100g": 41,
+            "proteinas": 0.9,
+            "carboidratos": 9.6,
+            "gorduras": 0.2,
+            "fibras": 2.8,
+            "vitaminas": {
+                "vitamina_A": 835,
+                "vitamina_K": 13.2,
+                "vitamina_C": 5.9
+            },
+            "minerais": {
+                "potassio": 320,
+                "fosforo": 35,
+                "magnesio": 12
+            },
+            "beneficios": [
+                "Rica em betacaroteno",
+                "Melhora visão",
+                "Antioxidante natural",
+                "Fortalece sistema imunológico"
+            ]
+        },
+        "tomate": {
+            "calorias_por_100g": 18,
+            "proteinas": 0.9,
+            "carboidratos": 3.9,
+            "gorduras": 0.2,
+            "fibras": 1.2,
+            "vitaminas": {
+                "vitamina_C": 13.7,
+                "vitamina_K": 7.9,
+                "folato": 15
+            },
+            "minerais": {
+                "potassio": 237,
+                "fosforo": 24,
+                "magnesio": 11
+            },
+            "beneficios": [
+                "Rico em licopeno",
+                "Propriedades anticancerígenas",
+                "Baixo em calorias",
+                "Hidratante natural"
+            ]
+        }
+    },
+    "proteinas": {
+        "frango": {
+            "calorias_por_100g": 165,
+            "proteinas": 31.0,
+            "carboidratos": 0,
+            "gorduras": 3.6,
+            "fibras": 0,
+            "vitaminas": {
+                "niacina": 14.8,
+                "vitamina_B6": 1.2,
+                "vitamina_B12": 0.3
+            },
+            "minerais": {
+                "fosforo": 220,
+                "selenio": 27.6,
+                "potassio": 256
+            },
+            "beneficios": [
+                "Excelente fonte de proteína magra",
+                "Rico em aminoácidos essenciais",
+                "Baixo em gordura saturada",
+                "Ajuda no ganho de massa muscular"
+            ]
+        },
+        "salmão": {
+            "calorias_por_100g": 208,
+            "proteinas": 25.4,
+            "carboidratos": 0,
+            "gorduras": 12.4,
+            "fibras": 0,
+            "vitaminas": {
+                "vitamina_D": 11.0,
+                "vitamina_B12": 3.2,
+                "niacina": 8.5
+            },
+            "minerais": {
+                "selenio": 36.5,
+                "fosforo": 252,
+                "potassio": 363
+            },
+            "beneficios": [
+                "Rico em ômega-3",
+                "Excelente fonte de proteína",
+                "Beneficia saúde cardiovascular",
+                "Melhora função cerebral"
+            ]
+        },
+        "ovo": {
+            "calorias_por_100g": 155,
+            "proteinas": 13.0,
+            "carboidratos": 1.1,
+            "gorduras": 10.6,
+            "fibras": 0,
+            "vitaminas": {
+                "vitamina_B12": 0.9,
+                "riboflavina": 0.4,
+                "vitamina_A": 140
+            },
+            "minerais": {
+                "selenio": 30.7,
+                "fosforo": 198,
+                "ferro": 1.8
+            },
+            "beneficios": [
+                "Proteína completa",
+                "Rico em colina",
+                "Versátil e nutritivo",
+                "Bom para desenvolvimento cerebral"
+            ]
+        },
+        "feijão": {
+            "calorias_por_100g": 127,
+            "proteinas": 8.7,
+            "carboidratos": 22.8,
+            "gorduras": 0.5,
+            "fibras": 6.4,
+            "vitaminas": {
+                "folato": 149,
+                "tiamina": 0.2,
+                "niacina": 0.5
+            },
+            "minerais": {
+                "ferro": 2.9,
+                "potassio": 355,
+                "magnesio": 35
+            },
+            "beneficios": [
+                "Rica fonte de proteína vegetal",
+                "Alto teor de fibras",
+                "Rico em ferro",
+                "Controla níveis de açúcar"
+            ]
+        }
+    },
+    "cereais": {
+        "arroz_integral": {
+            "calorias_por_100g": 111,
+            "proteinas": 2.6,
+            "carboidratos": 22.0,
+            "gorduras": 0.9,
+            "fibras": 1.8,
+            "vitaminas": {
+                "niacina": 3.1,
+                "tiamina": 0.1,
+                "vitamina_B6": 0.1
+            },
+            "minerais": {
+                "magnesio": 44,
+                "fosforo": 77,
+                "selenio": 7.5
+            },
+            "beneficios": [
+                "Rico em fibras",
+                "Fonte de energia sustentada",
+                "Sem glúten",
+                "Rico em antioxidantes"
+            ]
+        },
+        "aveia": {
+            "calorias_por_100g": 389,
+            "proteinas": 16.9,
+            "carboidratos": 66.3,
+            "gorduras": 6.9,
+            "fibras": 10.6,
+            "vitaminas": {
+                "tiamina": 0.8,
+                "folato": 56,
+                "vitamina_E": 0.4
+            },
+            "minerais": {
+                "magnesio": 177,
+                "fosforo": 523,
+                "ferro": 4.7
+            },
+            "beneficios": [
+                "Rica em fibra beta-glucana",
+                "Reduz colesterol",
+                "Controla açúcar no sangue",
+                "Fonte de proteína vegetal"
+            ]
+        },
+        "quinoa": {
+            "calorias_por_100g": 120,
+            "proteinas": 4.4,
+            "carboidratos": 21.3,
+            "gorduras": 1.9,
+            "fibras": 2.8,
+            "vitaminas": {
+                "folato": 42,
+                "tiamina": 0.1,
+                "riboflavina": 0.1
+            },
+            "minerais": {
+                "magnesio": 64,
+                "fosforo": 152,
+                "ferro": 1.5
+            },
+            "beneficios": [
+                "Proteína completa",
+                "Sem glúten",
+                "Rico em minerais",
+                "Baixo índice glicêmico"
+            ]
+        }
+    },
+    "laticinios": {
+        "leite": {
+            "calorias_por_100g": 61,
+            "proteinas": 3.2,
+            "carboidratos": 4.8,
+            "gorduras": 3.3,
+            "fibras": 0,
+            "vitaminas": {
+                "vitamina_B12": 0.4,
+                "riboflavina": 0.2,
+                "vitamina_A": 28
+            },
+            "minerais": {
+                "calcio": 113,
+                "fosforo": 84,
+                "potassio": 132
+            },
+            "beneficios": [
+                "Excelente fonte de cálcio",
+                "Proteína de alta qualidade",
+                "Fortalece ossos e dentes",
+                "Rico em vitaminas do complexo B"
+            ]
+        },
+        "iogurte_natural": {
+            "calorias_por_100g": 59,
+            "proteinas": 10.0,
+            "carboidratos": 3.6,
+            "gorduras": 0.4,
+            "fibras": 0,
+            "vitaminas": {
+                "vitamina_B12": 0.5,
+                "riboflavina": 0.3,
+                "vitamina_B6": 0.1
+            },
+            "minerais": {
+                "calcio": 110,
+                "fosforo": 135,
+                "potassio": 141
+            },
+            "beneficios": [
+                "Rico em probióticos",
+                "Melhora saúde digestiva",
+                "Alta concentração de proteína",
+                "Fortalece sistema imunológico"
+            ]
+        },
+        "queijo_cottage": {
+            "calorias_por_100g": 98,
+            "proteinas": 11.1,
+            "carboidratos": 3.4,
+            "gorduras": 4.3,
+            "fibras": 0,
+            "vitaminas": {
+                "vitamina_B12": 0.4,
+                "riboflavina": 0.2,
+                "folato": 12
+            },
+            "minerais": {
+                "calcio": 83,
+                "fosforo": 159,
+                "selenio": 20.3
+            },
+            "beneficios": [
+                "Alto teor de proteína",
+                "Baixo em carboidratos",
+                "Rica fonte de cálcio",
+                "Versátil na culinária"
+            ]
+        }
+    },
+    "oleaginosas": {
+        "amendoim": {
+            "calorias_por_100g": 567,
+            "proteinas": 25.8,
+            "carboidratos": 16.1,
+            "gorduras": 49.2,
+            "fibras": 8.5,
+            "vitaminas": {
+                "niacina": 12.1,
+                "folato": 240,
+                "vitamina_E": 8.3
+            },
+            "minerais": {
+                "magnesio": 168,
+                "fosforo": 376,
+                "potassio": 705
+            },
+            "beneficios": [
+                "Rico em gorduras saudáveis",
+                "Excelente fonte de proteína",
+                "Rico em antioxidantes",
+                "Beneficia saúde cardiovascular"
+            ]
+        },
+        "castanha_do_para": {
+            "calorias_por_100g": 659,
+            "proteinas": 14.3,
+            "carboidratos": 12.3,
+            "gorduras": 67.1,
+            "fibras": 7.5,
+            "vitaminas": {
+                "vitamina_E": 5.7,
+                "tiamina": 0.6,
+                "vitamina_C": 0.7
+            },
+            "minerais": {
+                "selenio": 1917,
+                "magnesio": 376,
+                "fosforo": 725
+            },
+            "beneficios": [
+                "Altíssima em selênio",
+                "Antioxidante poderoso",
+                "Melhora função da tireoide",
+                "Rico em gorduras saudáveis"
+            ]
+        },
+        "amêndoas": {
+            "calorias_por_100g": 579,
+            "proteinas": 21.2,
+            "carboidratos": 21.6,
+            "gorduras": 49.9,
+            "fibras": 12.5,
+            "vitaminas": {
+                "vitamina_E": 25.6,
+                "riboflavina": 1.0,
+                "niacina": 3.6
+            },
+            "minerais": {
+                "calcio": 269,
+                "magnesio": 270,
+                "fosforo": 481
+            },
+            "beneficios": [
+                "Rica em vitamina E",
+                "Excelente fonte de cálcio vegetal",
+                "Rica em fibras",
+                "Beneficia saúde do coração"
+            ]
+        }
+    },
+    "sementes": {
+        "chia": {
+            "calorias_por_100g": 486,
+            "proteinas": 16.5,
+            "carboidratos": 42.1,
+            "gorduras": 30.7,
+            "fibras": 34.4,
+            "vitaminas": {
+                "niacina": 8.8,
+                "tiamina": 0.6,
+                "riboflavina": 0.2
+            },
+            "minerais": {
+                "calcio": 631,
+                "fosforo": 860,
+                "magnesio": 335
+            },
+            "beneficios": [
+                "Altíssima em fibras",
+                "Rica em ômega-3 vegetal",
+                "Excelente fonte de cálcio",
+                "Hidrata e sacia"
+            ]
+        },
+        "linhaça": {
+            "calorias_por_100g": 534,
+            "proteinas": 18.3,
+            "carboidratos": 28.9,
+            "gorduras": 42.2,
+            "fibras": 27.3,
+            "vitaminas": {
+                "tiamina": 1.6,
+                "niacina": 3.1,
+                "folato": 87
+            },
+            "minerais": {
+                "magnesio": 392,
+                "fosforo": 642,
+                "potassio": 813
+            },
+            "beneficios": [
+                "Rica em ômega-3",
+                "Alta concentração de fibras",
+                "Beneficia saúde hormonal",
+                "Propriedades anti-inflamatórias"
+            ]
+        },
+        "girassol": {
+            "calorias_por_100g": 584,
+            "proteinas": 20.8,
+            "carboidratos": 20.0,
+            "gorduras": 51.5,
+            "fibras": 8.6,
+            "vitaminas": {
+                "vitamina_E": 35.2,
+                "niacina": 8.3,
+                "folato": 227
+            },
+            "minerais": {
+                "magnesio": 325,
+                "fosforo": 660,
+                "selenio": 53.0
+            },
+            "beneficios": [
+                "Altíssima em vitamina E",
+                "Rica em gorduras insaturadas",
+                "Excelente fonte de magnésio",
+                "Antioxidante natural"
+            ]
+        }
+    }
+}
